@@ -107,7 +107,7 @@ public class MatrixPulau extends JFrame {
         boxes.removeAll();
         int n = matrix.length;
         grid.setRows(n);
-        grid.setRows(n);
+        grid.setColumns(n);
         
         int i, j;
         for(i = 0; i < n; i++){
